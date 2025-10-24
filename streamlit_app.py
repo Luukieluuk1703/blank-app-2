@@ -3,7 +3,7 @@ import streamlit as st
 import sqlite3, datetime as dt
 from contextlib import closing
 import pytz
-import streamlit_authenticator as stauth
+
 
 # ---------- CONFIG ----------
 APP_TZ = pytz.timezone("Europe/Amsterdam")  # toon tijden lokaal
